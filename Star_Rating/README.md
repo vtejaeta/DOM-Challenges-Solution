@@ -2,6 +2,8 @@
 
 Create star rating utility using HTML, CSS and JavaScript
 
+**Solution Live URL:** [https://quizzical-almeida-a6ed46.netlify.app/](https://quizzical-almeida-a6ed46.netlify.app/)
+
 **Playground:** [JSFiddle](https://jsfiddle.net/devkode/wxoykdgm/)
 
 ## Template

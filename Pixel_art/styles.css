@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  background-color: white;
+  box-sizing: border-box;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button,
+a,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  height: 30px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

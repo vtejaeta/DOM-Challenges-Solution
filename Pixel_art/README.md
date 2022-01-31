@@ -2,6 +2,8 @@
 
 Create Pixel Art grid using HTML, CSS and JavaScript
 
+**Solution Live URL:** [https://cocky-curran-f716e9.netlify.app/](https://cocky-curran-f716e9.netlify.app/)
+
 ## Template
 
 > HTML

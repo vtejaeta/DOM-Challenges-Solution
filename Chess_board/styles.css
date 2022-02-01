@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  background-color: white;
+  box-sizing: border-box;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button,
+a,
+p {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.description {
+  margin: 1rem 0 1.3rem;
+}
+
+#chess {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  border: 5px solid black;
+  margin: 0;
+  padding: 1px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  height: 40px;
+  width: 40px;
+
+  color: crimson;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}

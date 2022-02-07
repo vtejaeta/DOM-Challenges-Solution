@@ -13,6 +13,8 @@ Implement Memory Game using HTML, CSS and Vanilla Javascript.
 
 **Time Duration:** 90 minutes
 
+**Solution Live URL:** [https://fervent-shaw-3c35d1.netlify.app/](https://fervent-shaw-3c35d1.netlify.app/)
+
 #### Bonus:
 
 - Record and maintain the High Score.

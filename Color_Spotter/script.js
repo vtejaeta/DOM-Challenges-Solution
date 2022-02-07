@@ -49,8 +49,6 @@ function ColorSpotter(el, N, scoreEl) {
     scoreElement.innerText = `Score: ${score}`;
     oddIndex = randomIndex;
 
-    console.log(oddIndex);
-
     for (let i = 0; i < cellCount; i++) {
       let cellElement = document.createElement("div");
       cellElement.className = "cell";

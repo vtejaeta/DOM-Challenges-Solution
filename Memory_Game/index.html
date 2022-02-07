@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Memory Game</h1>
+
+    <div class="container">
+      <div class="score-cnt">
+        <p>Score: <span class="score">0</span></p>
+        <p>High Score: <span class="high-score">0</span></p>
+      </div>
+      <div class="game-board" id="game-board"></div>
+      <button class="run" id="run">Start</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      let game = MemoryGame(
+        document.getElementById("game-board"),
+        5,
+        document.querySelector(".score"),
+        document.querySelector(".high-score")
+      );
+
+      let { load } = game;
+      document.getElementById("run").addEventListener("click", load);
+    </script>
+  </body>
+</html>
